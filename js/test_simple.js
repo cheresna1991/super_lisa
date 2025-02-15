@@ -34,11 +34,11 @@ c.addEventListener('click', () => {
 let d = document.getElementById('aad');
 d.addEventListener('click', () => {
     var id = Number(document.querySelector('#id>input').value);
-    if (id === 33) {
+    if (id === 9) {
         var g = 'Правильно!';
         document.getElementById("ad").innerHTML = g;
     } else {
-        var g = 'Неправильно! Ответ: 33';
+        var g = 'Неправильно! Ответ: 9';
         document.getElementById("ad").innerHTML = g;
     }
 });
