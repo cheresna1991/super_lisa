@@ -44,7 +44,7 @@ d.addEventListener('click', () => {
 });
 let e = document.getElementById('aae');
 e.addEventListener('click', () => {
-    var id = Number(document.querySelector('#id>input').value);
+    var id = Number(document.querySelector('#ie>input').value);
     if (id === 2) {
         var g = 'Правильно!';
         document.getElementById("ae").innerHTML = g;
