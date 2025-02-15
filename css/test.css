@@ -1,0 +1,81 @@
+/* Стили для меню */
+body{
+    background-image: url(../images/fon.jpg);
+}
+
+.main{
+    background-color: rgb(252, 252, 252);
+        padding: 20px;
+        border-color: cornflowerblue;
+        border-radius: 20px;
+        border-style: groove;
+        text-align: center;
+        width: 50%;
+        height: 50%;
+        margin-left: 30px;
+        font-size: 30px;    
+        user-select: none;
+        color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main:hover{
+    background-color: rgb(204, 202, 202);
+}
+.test_body{
+    background-color: rgb(248, 248, 248);
+        padding: 15px;
+        border-color: cornflowerblue;
+        border-radius: 20px;
+        border-style: groove;
+        
+        margin-top: 0%;
+        user-select: none;
+        width: 50%;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+}
+.block{
+    display: grid;
+    grid-template-columns: 30% ;
+    
+}
+.all{
+    display: grid;
+    grid-template-rows: auto;
+    
+}
+.foto{
+    
+    width: 100%;
+}
+.input{
+    padding: 8px;
+    width: 30%;
+    
+}
+.btn{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgb(255, 254, 254);
+    font-weight: bold;
+    border-color: blue;
+    width: 30%;
+}
+.btn:hover{
+    background-color: rgb(204, 202, 202);
+}
+.q{
+    margin-top: 0px;
+    
+}
+.text{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+#foto{
+    width: 60%;
+}

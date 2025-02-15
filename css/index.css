@@ -1,0 +1,60 @@
+/* Стили для меню */
+body{
+    background-image: url(../images/fon.jpg);
+}
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-color: rgb(115, 153, 223);
+        border-radius: 20px;
+        border-style: groove;
+        text-align: center;
+        width: 50%;
+        font-size: 30px;
+        user-select: none;
+}
+#menu1{
+    margin-top: 10%;
+    text-decoration: none;
+}
+#menu2{
+    margin-top: 3%;
+    text-decoration: none;
+}
+.main-item {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sub-menu {
+    display: none; /* Скрываем подменю по умолчанию */
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.sub-menu li {
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: #333;
+    text-decoration: none;
+}
+
+.sub-menu a:hover {
+    color: #000;
+    font-weight: bold;
+}
+.block{
+    display: grid;
+    grid-template-columns: 100%;
+}
