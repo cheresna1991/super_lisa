@@ -43,7 +43,7 @@ d.addEventListener('click', () => {
     }
 });
 let e = document.getElementById('aae');
-d.addEventListener('click', () => {
+e.addEventListener('click', () => {
     var id = Number(document.querySelector('#id>input').value);
     if (id === 2) {
         var g = 'Правильно!';
